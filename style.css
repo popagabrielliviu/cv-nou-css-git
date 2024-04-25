@@ -1,0 +1,64 @@
+h3 {
+  color: blue;
+}
+
+h1 {
+  color: rgb(151, 35, 35);
+}
+
+h2 {
+  color: blueviolet;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.paragraph-objective {
+  text-indent: 50px;
+  word-spacing: 10px;
+  background-color: rgb(213, 229, 229);
+}
+
+ol>li.active:first-child {
+  text-shadow: 5px 5px yellow;
+}
+
+ol>li.active:last-child {
+  text-shadow: 5px 5px yellow;
+}
+
+ul>li {
+  text-decoration: underline;
+}
+
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+#table-header {
+  background-color: green;
+  color: white;
+}
+
+td,
+th {
+  padding: 5px;
+  text-align: center;
+}
+
+#my-table {
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(235, 229, 229);
+}
+
+tr:hover {
+  background-color: #9b9797;
+}
