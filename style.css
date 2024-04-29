@@ -8,6 +8,7 @@ h1 {
 
 h2 {
   color: blueviolet;
+  border: 1px solid red;
 }
 
 .main-title {
@@ -20,18 +21,17 @@ h2 {
   background-color: rgb(213, 229, 229);
 }
 
-ol>li.active:first-child {
+ol > li.active:first-child {
   text-shadow: 5px 5px yellow;
 }
 
-ol>li.active:last-child {
+ol > li.active:last-child {
   text-shadow: 5px 5px yellow;
 }
 
-ul>li {
+ul > li {
   text-decoration: underline;
 }
-
 
 table,
 td,
